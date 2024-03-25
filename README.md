@@ -4,20 +4,31 @@ Laravel 9
 database DB MYSQL
 Composer version 2.5.8 2023-06-09 17:13:21
 
-ada tiga role yaitu admin, pengelola, supir
-akun admin 
-email : admin@gmail.com password:admin
+ada 5 role yaitu admin, dosen, sekrpo , kapro , mahasiswa
 
-1. php artisan migrate --seed 
-2. cari file storage di public dan hapus file.. lalu ketikan di terminal php artisan storage:link 
-3. composer install
-4. setelah masuk admin silahkan buat role di user management terlebih dahulu yaitu role supir dan role pengelola lalu aktifkan atau centang permission pemesanans.index
-![image](https://github.com/agung125/Penyewaan-Kendaraan/assets/93768289/1b98c75f-b880-48d1-8398-c0f039702493)
 
-buat akun supir di menu data supir
-dan buat akun pengelola di menu data kepala cabang
+admin admin@gmail.com pw admin
+sekpro wijayanti@gmail.com  pw wijayanti
+kapro slamet@gmail.com pw slamet
+dosen email dosen pw 12345 sama semua
+mahasiswa email mahasiswa pw 12345 sama semua 
 
-setelah sudah semuanya . silahkan menikmati semua fitur dan menu yang sudah saya buat
-salam hormat dan terimakasih
+untuk mempersingkat waktu penggunaan . harap import yang sudah di sediakan 
+
+bila mau me migrate sendiri harap sertakan --seed dan juga setelah masuk ke dashboard admin tambahkan permission untuk role dosen dan role mahasiswa seperti berikut ini
+![image](https://github.com/agung125/Aplikasi-Pengajuan-Judul-Skripsi/assets/93768289/3532af26-9a6c-4c49-b955-e692e5f1f217)
+
+selanjutnya tambahkan sendiri akun mahasiswa dan akun dosen sesuai ke inginan
+
+![image](https://github.com/agung125/Aplikasi-Pengajuan-Judul-Skripsi/assets/93768289/9a25f79a-49c1-427c-b704-08dd1853dcdd)
+
+
+terimakasih
+
+
+
+
+
+
 
 
