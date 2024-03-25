@@ -13,7 +13,7 @@ kapro slamet@gmail.com pw slamet
 dosen email dosen pw 12345 sama semua
 mahasiswa email mahasiswa pw 12345 sama semua 
 
-untuk mempersingkat waktu penggunaan . harap import yang sudah di sediakan 
+untuk mempersingkat waktu penggunaan . harap import database yang sudah di sediakan 
 
 bila mau me migrate sendiri harap sertakan --seed dan juga setelah masuk ke dashboard admin tambahkan permission untuk role dosen dan role mahasiswa seperti berikut ini
 ![image](https://github.com/agung125/Aplikasi-Pengajuan-Judul-Skripsi/assets/93768289/3532af26-9a6c-4c49-b955-e692e5f1f217)
