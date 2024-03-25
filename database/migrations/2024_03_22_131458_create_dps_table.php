@@ -17,9 +17,7 @@ return new class extends Migration
             $table->id();
             $table->bigInteger('mahasiswa_id')->unsigned();
             $table->string('judul_skripsi');
-            $table->bigInteger('dosen1')->unsigned();
-            $table->bigInteger('dosen2')->unsigned();
-            $table->bigInteger('dosen3')->unsigned();
+            $table->bigInteger('dosen_id')->unsigned();
             $table->timestamps();
         });
     }
